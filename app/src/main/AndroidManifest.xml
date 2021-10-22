@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Cuestionario_AlpucheConrado">
         <activity
-            android:name=".Cuestionario"
+            android:name="Cuestionario"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
