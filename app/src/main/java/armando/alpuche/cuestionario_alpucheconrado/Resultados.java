@@ -21,7 +21,7 @@ public class Resultados extends AppCompatActivity {
             tv1=(TextView) findViewById(R.id.textView2);
             Bundle extras = getIntent().getExtras();
             if (extras !=null){
-                total=(Integer) extras.get("Resultados4");
+                total=(Integer) extras.get("Resultados3");
                 tv1.setText(Integer.toString(total));
             }
         }

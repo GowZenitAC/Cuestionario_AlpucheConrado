@@ -40,6 +40,12 @@
             android:text="Vue Js" />
     </RadioGroup>
 
+    <TextView
+        android:layout_width="323dp"
+        android:layout_height="136dp"
+        android:layout_gravity="center"
+        android:background="@drawable/jsframeworks" />
+
     <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

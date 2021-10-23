@@ -24,22 +24,28 @@
             android:id="@+id/radio0"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:checked="true"
-            android:text="Interpretado" />
+            android:text="Traducido" />
 
         <RadioButton
             android:id="@+id/radio1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Compilado" />
+            android:text="Interpretado"
+            android:checked="true"/>
 
         <RadioButton
             android:id="@+id/radio2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Nose xd" />
+            android:text="Compilado" />
 
     </RadioGroup>
+
+    <TextView
+        android:layout_width="344dp"
+        android:layout_height="126dp"
+        android:layout_gravity="center"
+        android:background="@drawable/javaimg" />
 
     <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
         android:layout_width="wrap_content"
@@ -49,8 +55,7 @@
         android:onClick="cuestionario2"
         android:text="Siguiente"
         android:textColor="#ffff"
-        android:textStyle="bold"
-        tools:ignore="UsingOnClickInXml" />
+        android:textStyle="bold" />
 
 
 </LinearLayout>

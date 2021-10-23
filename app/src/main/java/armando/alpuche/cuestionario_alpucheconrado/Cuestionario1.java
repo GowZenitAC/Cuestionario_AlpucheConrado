@@ -9,7 +9,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class Cuestionario1 extends AppCompatActivity {
     public static Activity Cu1;
-    private RadioButton rb1;
+    private RadioButton rb2;
     public int total1 = 0;
     public int total2 = 0;
 
@@ -18,7 +18,7 @@ public class Cuestionario1 extends AppCompatActivity {
             Cu1=this;
             super.onCreate(savedInstanceState);
             setContentView(R.layout.cuestionario1);
-            rb1=(RadioButton)findViewById(R.id.radio0);
+            rb2=(RadioButton)findViewById(R.id.radio1);
             //se inicializa el radiobutton en este caso
             //se esta diciendo que la respuesta corrrecta es el radio0 o el id del primer
             // radiobutton
@@ -31,7 +31,7 @@ public class Cuestionario1 extends AppCompatActivity {
         public void cuestionario2 (View v){
             //Se crea y asigna la informacion a enviar
             // opcion 1 es la respuesta correcta en este caso es con la propiedad Checked
-            if (rb1.isChecked() == true){
+            if (rb2.isChecked() == true){
                 total2 = total1 + 1; //se suma la respuesta anterior mas esta y ese es el resultado de
                 //la variable total2
             }
